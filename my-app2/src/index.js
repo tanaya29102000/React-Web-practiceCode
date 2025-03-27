@@ -3,14 +3,14 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Users from "./Users";
+import JSX from "./JSX";
 import HandleForm from "./HandleForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <App />
-    <Users />
+    <JSX />
     <HandleForm/>
   </React.StrictMode>
 );

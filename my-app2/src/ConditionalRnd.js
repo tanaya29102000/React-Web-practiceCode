@@ -22,7 +22,13 @@ function ConditionalRnd() {
   return (
     <div>
       <h1>Condotional Rendering...</h1>
-    </div>
+      <User data={getData}/>
+      <User data={getData}/>
+      <User data={getData}/>
+      <User data={getData}/>
+<div style={float}></div></div>
+
+
   )
 }
 
