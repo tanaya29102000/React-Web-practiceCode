@@ -1,0 +1,87 @@
+BASIC REACT App
+
+
+**CREATE REACT APP (CRA):
+
+npx create-react-app my-app
+cd my-app
+npm start
+
+-----------------------------------------------------------
+**JSX SYNTAX:
+
+const element = <h1>Hello, world!</h1>;
+
+--------------------------------------------------------------
+**COMPONENTS
+
+*Functional Component
+
+function Greeting(){
+    return <h1>Hello, User!</h1>
+}
+
+
+*Class Component
+
+class Greeting extends React.component{
+    render(){
+        return <h1>Hello, Tanaya!</h1>
+    }
+}
+
+------------------------------------------------------
+
+**PROPS(PROPERTIES)
+
+*Pass data to child components.
+*Immutable in child components.
+
+<Greeting name="John"/>
+function Greeting(props){
+    return <h1>Hello, {props.name}</h1>;
+}
+
+----------------------------------------------------------
+
+**STATE is object
+
+*Manages dynamic data within a component.
+*Use useState in functional Components.
+
+const [count,setCount]= useState(0);
+
+------------------------------------------------------
+
+**LIFECYCLE METHODS
+
+*componentDidMount(): Called after the component mounts.
+*componentDidUpdate(): Called after updates.
+*componentWillUnmount(): Called before unmounting.
+
+---------------------------------------------------------
+
+**React Hooks
+
+*useState: State management.
+*useEffect: Side effects (e.g,API Calls).
+*useContext: Global state management.
+
+*Example (useEffect):
+
+useEffect(()=>{
+    //fetch data or other side effects
+}, []);//u can insert array or object both they render .
+
+------------------------------------------------------------------
+
+**CONDITIONAL RENDERING 
+
+*Render based on conditions.
+
+{isLoggedIn ? <Dashboard/> : <Login/>}// ternery operator
+
+*Handle user inputs like clicks.
+
+<button onClick={handleClick}>Click Me</button>
+

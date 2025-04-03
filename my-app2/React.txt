@@ -121,10 +121,10 @@ destructure - uske parameter ko baher kr denge or u can take by default name.
  ---------------------------------------------------------------------------
 12.STATE WITH CLASS COMPONENT
 
-make class component
-what is state(we store object, array inside)
-define state
-update state with a button
+*make class component
+*what is state(we store object, array inside)
+*define state
+*update state with a button
 
 super use in it- becoz it is javascript functionality
 when we use in one class this and one class to extend 
@@ -139,4 +139,167 @@ NO we can't
 state is public.
 
 ****can i use usestate inside class component?why or not
+
+-----------------------------------------------------------------------------
+13.Props with Functional Component
+
+*what are Props
+*use of Props
+*example with functional component
+*update props on Button click
+
+We pass dynamic data also
+pass data from one component to another component with the help of props 
+
+--------------------------------------------------------------------------------------
+14. Props in Class Component
+
+What are props 
+use of Props
+example with class component
+update props on button CLICK
+
+u can change parent component (becoz data send from) u cannt change data inside child component.
+
+state is defined inside constructor function
+for parent we use this and show first super()
+
+
+QUESTION....
+can i send function as props ??
+Yes
+
+----------------------------------------------------------------------------------------
+15. GET INPUT BOX VALUE
+
+Make input field
+make function and get VALUE
+make button and state 
+get value on button click
+
+QUESTION.....
+
+CAN I GET CHECKBOX VALUE OR RADION BUTTON 
+
+--------------------------------------------------------------------------------------------------
+HIDE , TOGGLE AND SHOW ELEMENT
+
+Make a div or any other element 
+make state for hiding and show element
+make button 
+update state on button click
+
+****toggle - same button that mean toggle.
+usestate(true (by default value for show))
+***onclick event ke upr state update hoti hai
+
+QUESTION.....
+inside the react or jquery we use same method for HIDE and show?
+
+------------------------------------------------------------------------------
+17.Handle Form , Checkbox,Input Field, Select
+
+Make HTML form 
+addd some field
+use state for field data 
+submit and control form
+
+**checked--true or false value get
+QUESTIONS.....
+
+------------------------------------------------------------------------------------
+18.Conditional Rendering , If Conditional
+ *
+
+ *make component
+ use state
+ not recommended Way for Condition
+ correct way Condition
+
+ ------------------------------------------------------------------------------------------------
+ 19.Basic FORM validation
+
+ Make component
+ Make html form
+ define states
+ apply validation
+ Apply validation
+
+
+//4 state define , two for validation and two for data
+ QUESTION.....
+
+-------------------------------------------------------------------------------
+20. Pass Function as Props
+
+
+
+ --------------------------------------------------------------------------------------------------------------
+
+21.WHAT IS LIFE CYCLE method...
+
+//MOUNTING
+//UPDATING 
+//UNMOUNTING
+
+WHEN COMPONENT IS LOADED
+WHEN COMPONENT IS UPDARED WITHN STATE  AND PROPS. 
+WHEN COMPONENT IS REMOVED.
+
+
+QUESTION..
+ FUNCTION RUN ANYWHERE AS PROPS(ANSWER)
+-------------------------------------------------------------------------------
+22. 
+
+
+
+
+
+-------------------------------------------------------------------------------------
+37.Fragment in Reactjs
+
+WHAT IS RAECT fRAGMENT?
+HOW TO USE IT?
+USE IT WITH CHILD COMPONENT?
+
+
+------------------------------------------------------------------------------------------
+38.Send Data CHILD TO PARENT COMPONENT IS CALLED (Lifting state up)
+
+Make a child component
+how pass props parent to child component
+send data child to parent
+
+
+
+
+-------------------------------------------------------------------------------------
+39.Pure Component in Reactjs
+
+what is pure component?
+is used to stop or control rendering in react.
+
+how to use the pure component?
+pure component example with state
+pure component example with props?
+ 
+------------------------------------------------------------------------------------------
+40. useMemo Hook in react
+
+This is useful for enhancing the performance of application.
+
+class based component(pure component use)
+function based component(useMemo used)
+both used for performance enhanced.
+but way is diff.
+
+why use useMemo Hook?
+understand problem 
+Apply useMemo?
+
+QUESTION..
+Are we use useMemo inside class component?
+
+---------------------------------------------------------------------
 
