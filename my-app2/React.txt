@@ -250,9 +250,31 @@ WHEN COMPONENT IS REMOVED.
 QUESTION..
  FUNCTION RUN ANYWHERE AS PROPS(ANSWER)
 -------------------------------------------------------------------------------
-22. 
+22. Constructor | First life CYCLE method
 
+what is Constructor?
+why this is important?
+what we can do in this life cycle method?
 
+***First constructor call before render method
+
+first we use constructor Lifecyclemethod in class then
+in functional component LCM .
+
+QUESTION...
+
+**component will load and then hide and show then repeat show our new life cycle again start or not??
+
+=New life cycle will be created...
+
+------------------------------------------------------------------------------------
+36.reuse Component in loop
+
+Make a component 
+make a list from the array
+use component inside map function
+
+QUESTION...
 
 
 
