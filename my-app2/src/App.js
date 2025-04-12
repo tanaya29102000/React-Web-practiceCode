@@ -449,45 +449,45 @@
 
 
 
-import React, { Component, useEffect } from 'react';
+// import React, { Component, useEffect } from 'react';
 
-// Class Component (Parent)
-export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      count: 0,
-      document: 'React App'
-    };
-  }
+// // Class Component (Parent)
+// export default class App extends Component {
+//   constructor() {
+//     super();
+//     this.state = {
+//       count: 0,
+//       document: 'React App'
+//     };
+//   }
 
-  render() {
-    return (
-      <div>
-        <h1>Class Component (App)</h1>
-        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
-          Increase Count
-        </button>
-        <Child count={this.state.count} document={this.state.document} />
-      </div>
-    );
-  }
-}
+//   render() {
+//     return (
+//       <div>
+//         <h1>Class Component (App)</h1>
+//         <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+//           Increase Count
+//         </button>
+//         <Child count={this.state.count} document={this.state.document} />
+//       </div>
+//     );
+//   }
+// }
 
-// Functional Component (Child)
-function Child(props) {
-  useEffect(() => {
-    console.log('Props:', props);
-    document.title = props.document;
-  }, [props.count]); // runs when props.count changes
+// // Functional Component (Child)
+// function Child(props) {
+//   useEffect(() => {
+//     console.log('Props:', props);
+//     document.title = props.document;
+//   }, [props.count]); // runs when props.count changes
 
-  return (
-    <div>
-      <h2>Child Component</h2>
-      <h3>Count: {props.count}</h3>
-    </div>
-  );
-}
+//   return (
+//     <div>
+//       <h2>Child Component</h2>
+//       <h3>Count: {props.count}</h3>
+//     </div>
+//   );
+// }
 
 
 //---------------------------------------------------------------------------------------------
@@ -605,4 +605,38 @@ function Child(props) {
 // }
 
 // export default App;
+
+//*******************Mediaquery**************************************************** */
+
+// import React from 'react'
+// import MediaQuery from './MediaQuery'
+
+// function App() {
+//   return (
+//     <div>
+//       <MediaQuery/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//******************FLEXBOX************************************** */
+//Flexbox is a CSS layout module that makes it easy to design flexible and responsive layout structures without using floats or positioning.
+
+import React from 'react'
+import Flexbox from './Flexbox'
+function App() {
+  return (
+    <div>
+      <h1>tanaya</h1>
+      <Flexbox/>
+    </div>
+  )
+}
+
+export default App
+
+
+
 

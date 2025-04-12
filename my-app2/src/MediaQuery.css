@@ -1,0 +1,10 @@
+.container {
+    background-color: aquamarine;
+    height: 100vh; /* so we can see the background */
+}
+
+@media (max-width: 768px) {
+    .container {
+        background-color: pink;
+    }
+}

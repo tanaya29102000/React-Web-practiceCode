@@ -1,0 +1,50 @@
+/*  CSS POSITION 
+position: static-
+
+*No special positioning.
+*Element flows naturally in the layout.
+*its default */
+
+.container{
+    position: static;
+}
+
+/*position : relative*/
+/* Positioned relative to the nearest positioned ancestor (not static). */
+
+
+.container{
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+/*position : fixed*/
+/* Sticks to the viewport (browser window).Great for sticky headers, footers, or chat buttons.
+Doesn’t scroll with the page. */
+
+.container{
+    position:fixed;
+    bottom:0;
+    right:0;
+}
+
+/*sticky*/
+/* Acts like relative until it hits a point, then sticks (like fixed).
+Great for sticky navbars or headers. */
+
+.container{
+    position: sticky;
+    top: 0;
+}
+
+/*absolute*/
+/* Positioned relative to the nearest positioned ancestor (not static).
+Doesn’t take up space in the layout.
+Floats over other content. */
+
+.container{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
