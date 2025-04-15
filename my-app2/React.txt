@@ -8,8 +8,9 @@ both are important file
 
 //npm alternative is yarn
 
----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 6. FILE AND FOLDER STRUCTURE
+
 package.json-(Application detail)
 all dependencies and libery of our project 
 center point file name ,react version.
@@ -37,8 +38,9 @@ Cloning the repository would take a long time for others.
 *When other user used node_module how to access?
 - install npm locally
 
----------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 7.Package.json file
+
 what is package.json(important) file
 how to add new npm package (npm i react-validation)
 remove npm package(uninstall)
@@ -48,7 +50,8 @@ QUESTION.....
 ***Types of Component?
 two types 1.function component 
           2. Class Component
-----------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
 7.FUNCTIONAL components
  
  ****what is component
@@ -71,7 +74,7 @@ header , footer is best example
  ***Can i make component inside another componet
  -YES 
 
- ------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------------------------
 8. CLASS COMPONENT
 
 WHat is component
@@ -81,7 +84,7 @@ QUESTION.....
 Can i use react and angular in one project ??
 -Yes i can 
 
---------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 9.JSX WITH react
 
 javscript xml
@@ -92,7 +95,7 @@ JSX
 
 import functionality is javascript functionality
 
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 10.CLICK EVENT AND FUNCTION
 
 How to make click event
@@ -103,7 +106,7 @@ QUESTION....
 Can i use jsx without react?
 YES I can
 
------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
 11.STATE WITH FUNCTIONAL COMPONENT
 
 What is STATE- basically is object u can store data inside the state like a variable.
@@ -118,7 +121,7 @@ useState- state ko maintain and update krne ke liye
 
 destructure - uske parameter ko baher kr denge or u can take by default name.
 
- ---------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------------------------------
 12.STATE WITH CLASS COMPONENT
 
 *make class component
@@ -140,7 +143,7 @@ state is public.
 
 ****can i use usestate inside class component?why or not
 
------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------
 13.Props with Functional Component
 
 *what are Props
@@ -151,7 +154,7 @@ state is public.
 We pass dynamic data also
 pass data from one component to another component with the help of props 
 
---------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
 14. Props in Class Component
 
 What are props 
@@ -169,7 +172,7 @@ QUESTION....
 can i send function as props ??
 Yes
 
-----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 15. GET INPUT BOX VALUE
 
 Make input field
@@ -181,8 +184,8 @@ QUESTION.....
 
 CAN I GET CHECKBOX VALUE OR RADION BUTTON 
 
---------------------------------------------------------------------------------------------------
-HIDE , TOGGLE AND SHOW ELEMENT
+-------------------------------------------------------------------------------------------------------------------------
+16. HIDE , TOGGLE AND SHOW ELEMENT
 
 Make a div or any other element 
 make state for hiding and show element
@@ -196,7 +199,7 @@ usestate(true (by default value for show))
 QUESTION.....
 inside the react or jquery we use same method for HIDE and show?
 
-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 17.Handle Form , Checkbox,Input Field, Select
 
 Make HTML form 
@@ -207,7 +210,7 @@ submit and control form
 **checked--true or false value get
 QUESTIONS.....
 
-------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
 18.Conditional Rendering , If Conditional
  *
 
@@ -216,7 +219,7 @@ QUESTIONS.....
  not recommended Way for Condition
  correct way Condition
 
- ------------------------------------------------------------------------------------------------
+ -----------------------------------------------------------------------------------------------------------------------
  19.Basic FORM validation
 
  Make component
@@ -229,12 +232,12 @@ QUESTIONS.....
 //4 state define , two for validation and two for data
  QUESTION.....
 
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 20. Pass Function as Props
 
 
 
- --------------------------------------------------------------------------------------------------------------
+ ---------------------------------------------------------------------------------------------------------------------------------------
 
 21.WHAT IS LIFE CYCLE method...
 
@@ -249,7 +252,8 @@ WHEN COMPONENT IS REMOVED.
 
 QUESTION..
  FUNCTION RUN ANYWHERE AS PROPS(ANSWER)
--------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------
 22. Constructor | First life CYCLE method
 
 what is Constructor?
@@ -267,7 +271,15 @@ QUESTION...
 
 =New life cycle will be created...
 
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+23.RENDER LIFE CYCLE method
+
+Use of render Method.
+Make Class COmponent.
+Use State and Props with render.
+
+
+----------------------------------------------------------------------------------------------------------------------------
 36.reuse Component in loop
 
 Make a component 
@@ -278,7 +290,7 @@ QUESTION...
 
 
 
--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 37.Fragment in Reactjs
 
 WHAT IS RAECT fRAGMENT?
@@ -286,7 +298,7 @@ HOW TO USE IT?
 USE IT WITH CHILD COMPONENT?
 
 
-------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 38.Send Data CHILD TO PARENT COMPONENT IS CALLED (Lifting state up)
 
 Make a child component
@@ -296,7 +308,7 @@ send data child to parent
 
 
 
--------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------
 39.Pure Component in Reactjs
 
 what is pure component?
@@ -306,7 +318,7 @@ how to use the pure component?
 pure component example with state
 pure component example with props?
  
-------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 40. useMemo Hook in react
 
 This is useful for enhancing the performance of application.
@@ -323,5 +335,6 @@ Apply useMemo?
 QUESTION..
 Are we use useMemo inside class component?
 
----------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
 
+41. 

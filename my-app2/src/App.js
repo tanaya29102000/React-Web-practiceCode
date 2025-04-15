@@ -624,18 +624,20 @@
 //******************FLEXBOX************************************** */
 //Flexbox is a CSS layout module that makes it easy to design flexible and responsive layout structures without using floats or positioning.
 
-import React from 'react'
-import Flexbox from './Flexbox'
-function App() {
-  return (
-    <div>
-      <h1>tanaya</h1>
-      <Flexbox/>
-    </div>
-  )
-}
+// import React from 'react'
+// import Flexbox from './Flexbox'
+// function App() {
+//   return (
+//     <div>
+//       <h1>tanaya</h1>
+//       <Flexbox/>
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
+
+
 
 
 
