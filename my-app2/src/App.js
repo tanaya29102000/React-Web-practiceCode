@@ -638,7 +638,50 @@
 // export default App
 
 
+//*************************REACT HOOKS *********************************************************** */
+//USESTATE HOOK 
+//WE ARE USING HOKS IN REACT FUNCTINAOL COMPONENTS
+
+// import React from 'react'
+// import UseState from "./UseState2";
+
+// function App() {
+//   return (
+//     <div>
+//       <UseState/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//*************************USEEFFECT HOOK**************************************************** */
+
+// import React from 'react'
+// import UseEffect2 from './UseEffect2'
+
+// function App() {
+//   return (
+//     <div>
+//       <UseEffect2/>
+//     </div>
+//   )
+// }
+
+// export default App
 
 
+//*****************************USECONTEXT HOOK***************************************************** */
 
+import React from 'react'
+import A from "./components/A";
 
+function App() {
+  return (
+    <div>
+      <A/>
+    </div>
+  )
+}
+
+export default App
