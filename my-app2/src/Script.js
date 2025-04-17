@@ -1,4 +1,4 @@
-//ARRAY METHODS
+//ARRAY METHODS....................
 //.push()
 //Transform each item in an array.
 //Adds one or more elements to the end of an array.
@@ -171,3 +171,21 @@ console.log("ha".repeat(3));//'hahaha'
 let str2 ="cat bat rat";
 console.log(str2.match(/at/g));//['at','at';'at']
 
+//endWith(str) 
+//Checks if string ends with given text
+
+let strrr = "Tanaya";
+console.log(strrr.endsWith('ya'));
+
+//lastIndexOf(str) 
+//finds lasst occurance of string
+
+let last = "kanerkaar";
+console.log(last.lastIndexOf('a'));
+
+//replaceAll(old, new)
+//replace all matches
+
+let name = ("Tanaya Kanerkar");
+let updatedName = name.replaceAll("Tanaya", "Ram");
+console.log(updatedName);
