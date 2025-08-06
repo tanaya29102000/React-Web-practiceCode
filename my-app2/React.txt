@@ -277,8 +277,15 @@ QUESTION...
 Use of render Method.
 Make Class COmponent.
 Use State and Props with render.
+1) component make 
+2)  state update
+3)props update
+there are 3 ways to update when i want to render a value it will rerender when state or props 
 
 
+QUESTION:
+
+in constructor can i receive props
 ----------------------------------------------------------------------------------------------------------------------------
 36.reuse Component in loop
 

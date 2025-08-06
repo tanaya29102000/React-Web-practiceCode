@@ -1,9 +1,8 @@
-import styles from "../components/Display.module.css";
+import React from "react";
+import styles from "./calculator.module.css";
 
-const Display  = ()=>{
-    return (
-        <input className={StyleSheet.display} type="text"/>
-    )
+const Display = ({ value }) => {
+  return <div className={styles.display}>{value}</div>;
 };
 
 export default Display;

@@ -1,16 +1,28 @@
-import React from 'react'
-import styles from "../components/Display";
+import React from "react";
+import styles from "./calculator.module.css";
 
-const  ButtonsContainer= ()=> {
+const ButtonsContainer = ({ onButtonClick }) => {
+  const buttons = [
+    "C", "1", "2", "+",
+    "3", "4", "-",
+    "5", "6", "*",
+    "7", "8", "/",
+    "9", "0", "="
+  ];
+
   return (
-     <div className={styles.buttonsContainer}>
-            <button className={styles.button}>C</button>
-            <button className={styles.button}>1</button>
-            <button className={styles.button}>2</button>
-            <button className={styles.button}>+</button>
-    
-          </div>
-  )
-}
+    <div className={styles.buttonsContainer}>
+      {buttons.map((btn, index) => (
+        <button
+          key={index}
+          className={styles.button}
+          onClick={() => onButtonClick(btn)}
+        >
+          {btn}
+        </button>
+      ))}
+    </div>
+  );
+};
 
-export default ButtonsContainer
+export default ButtonsContainer;

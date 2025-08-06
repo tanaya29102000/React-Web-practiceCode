@@ -242,7 +242,26 @@
 
 // export default App
 
-//*******
+//**********************************************************************************************
+//23 RENDER LIFE CYCLE METHOS
+import React from 'react'
+import RenderLCM from './RenderLCM'
+
+function App() {
+  const [name, setName] = useState("ANAGHA")
+
+  return (
+    <div className='App'>
+    <h1 Render Method in React></h1>
+      <User name="anu"/>
+      <button onClick={()=>setName("tanaya")}>Update Name</button>
+    </div>
+  )
+}
+
+export default App
+
+
 
 
 //*****************LIFE CYCLE METHOD******************************* */
@@ -673,15 +692,15 @@
 
 //*****************************USECONTEXT HOOK***************************************************** */
 
-import React from 'react'
-import A from "./components/A";
+// import React from 'react'
+// import A from "./components/A";
 
-function App() {
-  return (
-    <div>
-      <A/>
-    </div>
-  )
-}
+// function App() {
+//   return (
+//     <div>
+//       <A/>
+//     </div>
+//   )
+// }
 
-export default App
+// export default App
